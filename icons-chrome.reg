@@ -1,0 +1,57 @@
+Windows Registry Editor Version 5.00
+
+;Make PDFs open in Google Chrome while using custom PDF icon 
+;-----------------------------------------------------------
+[HKEY_CLASSES_ROOT\.pdf]
+@="ChromePDF"
+"Content Type"="application/pdf"
+
+[HKEY_CLASSES_ROOT\.pdf\OpenWithProgids]
+"ChromePDF"=hex(0):
+
+[HKEY_CLASSES_ROOT\ChromePDF]
+@="PDF (opened with Chrome)"
+
+[HKEY_CLASSES_ROOT\ChromePDF\DefaultIcon]
+@="C:\\Windows\\icon\\pdf.ico"
+; @="@{Microsoft.MicrosoftEdge_44.18362.329.0_neutral__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdge/Files/Assets/MicrosoftEdgePDF.png}"
+
+[HKEY_CLASSES_ROOT\ChromePDF\shell\open]
+@="Open"
+
+[HKEY_CLASSES_ROOT\ChromePDF\shell\open\command]
+@="\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -- \"%1\""
+
+[HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Google Chrome\Capabilities\FileAssociations]
+".pdf"="ChromePDF"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\Google Chrome\Capabilities\FileAssociations]
+".pdf"="ChromePDF"
+
+;Make SVGs open in Google Chrome while using custom SVG icon 
+;-----------------------------------------------------------
+[HKEY_CLASSES_ROOT\.svg]
+@="ChromeSVG"
+"Content Type"="application/svg"
+
+[HKEY_CLASSES_ROOT\.svg\OpenWithProgids]
+"ChromeSVG"=hex(0):
+
+[HKEY_CLASSES_ROOT\ChromeSVG]
+@="SVG (opened with Chrome)"
+
+[HKEY_CLASSES_ROOT\ChromeSVG\DefaultIcon]
+@="C:\\Windows\\icon\\svg.ico"
+; @="@{Microsoft.MicrosoftEdge_44.18362.329.0_neutral__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdge/Files/Assets/MicrosoftEdgeSVG.png}"
+
+[HKEY_CLASSES_ROOT\ChromeSVG\shell\open]
+@="Open"
+
+[HKEY_CLASSES_ROOT\ChromeSVG\shell\open\command]
+@="\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -- \"%1\""
+
+[HKEY_LOCAL_MACHINE\Software\Clients\StartMenuInternet\Google Chrome\Capabilities\FileAssociations]
+".SVG"="ChromeSVG"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\Google Chrome\Capabilities\FileAssociations]
+".SVG"="ChromeSVG"
