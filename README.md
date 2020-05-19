@@ -1,4 +1,4 @@
-# icos-chrome
+# Icones para Arquivos aberto pelo Chrome
 Ícones de extensões para serem aberta no chrome no Windows
 
 Site para converter png para icon
