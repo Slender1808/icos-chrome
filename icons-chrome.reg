@@ -13,7 +13,7 @@ Windows Registry Editor Version 5.00
 @="PDF (opened with Chrome)"
 
 [HKEY_CLASSES_ROOT\ChromePDF\DefaultIcon]
-@="C:\\Windows\\icon\\pdf.ico"
+@="C:\\icon\\pdf.ico"
 ; @="@{Microsoft.MicrosoftEdge_44.18362.329.0_neutral__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdge/Files/Assets/MicrosoftEdgePDF.png}"
 
 [HKEY_CLASSES_ROOT\ChromePDF\shell\open]
@@ -41,7 +41,7 @@ Windows Registry Editor Version 5.00
 @="SVG (opened with Chrome)"
 
 [HKEY_CLASSES_ROOT\ChromeSVG\DefaultIcon]
-@="C:\\Windows\\icon\\svg.ico"
+@="C:\\icon\\svg.ico"
 ; @="@{Microsoft.MicrosoftEdge_44.18362.329.0_neutral__8wekyb3d8bbwe?ms-resource://Microsoft.MicrosoftEdge/Files/Assets/MicrosoftEdgeSVG.png}"
 
 [HKEY_CLASSES_ROOT\ChromeSVG\shell\open]
