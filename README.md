@@ -1,19 +1,17 @@
 # Icones para Arquivos aberto pelo Chrome
 Ícones de extensões para serem aberta no chrome no Windows
 
-Site para converter png para icon
-https://www.icoconverter.com/
+Etapas instalação 
+1-  Crie uma pasta 📂 C:/icon
+2-  Copie os icones para lá
+3-  Execute icons-chrome.reg
+4-  Na pasta onde foi baixado repositório téra 1 arquivo pra cada extensão
+5-  Abra as propriedades 
+6-  Vá em Alterar
+7-  Procurar outro aplicativo neste PC
+8-  Encontre Chrome.exe
+9-  Aplice as alteração
+10- Repita isso com todos formatos
 
-Crie uma pasta 📂 C:/icon
-Copie os icones para lá
+Para criar novos ícones deixei esse site como opção https://www.icoconverter.com/
 
-Execute icons-chrome.reg
-
-Na pasta onde foi baixado repositório téra 1 arquivo pra cada extensão
-Abra as propriedades 
-Vá em Alterar
-Procurar outro aplicativo neste PC
-Encontre Chrome.exe // Geralmente está em C:\Program Files (x86)\Google\Chrome\Application
-Aplice as alteração
-
-Repita isso com todos formatos
