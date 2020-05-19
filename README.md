@@ -1,7 +1,7 @@
 # Icones para Arquivos aberto pelo Chrome
 Ícones de extensões para serem aberta no chrome no Windows
-#
-Etapas instalação 
+
+# Etapas instalação 
 1.  Crie uma pasta 📂 C:/icon
   2.  Copie os icones para lá
   3. Execute icons-chrome.reg
