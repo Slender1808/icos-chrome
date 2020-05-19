@@ -1,6 +1,6 @@
 # Icones para Arquivos aberto pelo Chrome
 Ícones de extensões para serem aberta no chrome no Windows
-
+#
 Etapas instalação 
 1.  Crie uma pasta 📂 C:/icon
   2.  Copie os icones para lá
@@ -12,7 +12,9 @@ Etapas instalação
   8.  Encontre Chrome.exe
   9.  Aplice as alteração
   10. Repita isso com todos formatos
+#
+Para criar novos ícones deixei esse site como opção.
+ - https://www.icoconverter.com/
 
-Para criar novos ícones deixei esse site como opção
-* https://www.icoconverter.com/
+
 
